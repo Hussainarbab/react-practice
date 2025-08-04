@@ -4,6 +4,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Food from "./Food";
 import Card from "./Card";
+import List from './List';
+import Button from './Button';
 
 function App() {
   return (
@@ -12,6 +14,16 @@ function App() {
       <UserGreeting isloggedIn={true} username="Hussain Arbab" />
       <Food />
       <Card />
+
+      <h1 className='huss'>Convert array object into list items with map method</h1>
+      <List/>
+
+
+      <h1 className='huss'>Click Events</h1>
+      <p className='huss'>For checking the result of button please check your console</p>
+      <Button/>
+
+      <h1 className='huss'>react hooks</h1>
       <Footer />
     </>
   );
