@@ -6,6 +6,7 @@ import Food from "./Food";
 import Card from "./Card";
 import List from './List';
 import Button from './Button';
+import MyComponent from './MyComponent';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Button/>
 
       <h1 className='huss'>react hooks</h1>
+      <MyComponent/>
       <Footer />
     </>
   );
