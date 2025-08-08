@@ -214,3 +214,31 @@ ul{
   text-align: center;
   margin-top: 30px;
 }
+
+
+.counter-container{
+  text-align: center;
+
+}
+
+
+.container-button{
+  padding: 15px 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+  background:linear-gradient(256deg, red,aqua); 
+
+}
+
+.count-display{
+  /* width: 30%; */
+  padding: 15px 0px;
+  margin: 10px 800px;
+  font-size: 20px;
+  background-color: #413f3f;
+  border-radius: 10px;
+  color: white;
+}

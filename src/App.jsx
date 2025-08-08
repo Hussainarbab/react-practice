@@ -7,6 +7,7 @@ import Card from "./Card";
 import List from './List';
 import Button from './Button';
 import MyComponent from './MyComponent';
+import Counter from './Counter';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
 
       <h1 className='huss'>react hooks</h1>
       <MyComponent/>
+
+      <h1 className='huss'>  Counter</h1>
+      <Counter/>
       <Footer />
     </>
   );
