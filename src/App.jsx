@@ -8,6 +8,7 @@ import List from './List';
 import Button from './Button';
 import MyComponent from './MyComponent';
 import Counter from './Counter';
+import Todo from './Todo';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
       <h1 className='huss'>  Counter</h1>
       <Counter/>
+      <Todo/>
       <Footer />
     </>
   );
