@@ -1,29 +1,20 @@
+function Cardd({ title, discription, imageUrl, text, alertMessage }) {
+  const handleClick = () => {
+    alert(alertMessage);
+  };
 
-
-function Cardd({title, discription, buttonText,imageUrl}){
-
-    return(
-        <>
-        <div className="main-div">
-
-            <img
-            src={imageUrl}
-            style={{width: "150px",height: "150px", borderRadius: "50%"}}
-            
-            />
-            <h2>{title}</h2>
-            <p>{discription}</p>
-            <button>{buttonText}</button>
-
-        </div>
-        
-        
-        
-        
-        </>
-    )
-
-
+  return (
+    <div className="main-div">
+      <img
+        src={imageUrl}
+        alt={title}
+        style={{ width: "150px", height: "150px", borderRadius: "50%" }}
+      />
+      <h2>{title}</h2>
+      <p>{discription}</p>
+      <button onClick={handleClick}>{text}</button>
+    </div>
+  );
 }
 
 export default Cardd;
