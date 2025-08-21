@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
-
+import Cardd from "./Cardd";
+import cardImg from "../src/assets/profile.png"
 export default function Todo() {
   const [todos, setTodos] = useState([]);       // Manage list of todos
   const [input, setInput] = useState("");       // Manage input field
@@ -66,6 +67,14 @@ export default function Todo() {
           </li>
         ))}
       </ul>
+
+      <Cardd
+imageUrl={cardImg}
+      title="hussain"
+      description="hi iam hussain"
+      buttonText="add me"
+      
+      />
     </div>
   );
 }
