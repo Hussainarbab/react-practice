@@ -242,3 +242,29 @@ ul{
   border-radius: 10px;
   color: white;
 }
+
+.main-div{
+  width: 15%;
+  height: 100%;
+  padding: 30px 40px 80px 20px;
+  background-color: #f3eeee;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.main-div p{
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.main-div button{
+  margin-top: 10px;
+  padding:6px 10px ;
+  font-size: 18px;
+}
+
+.profile{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
